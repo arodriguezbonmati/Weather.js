@@ -17,11 +17,11 @@ npm start --[command] --[arguments]
 + Search locations by name
 
 ```
-npm start --location="Madrid"
+npm start --location --name="Madrid"
 ```
 
 + Search locations by name and index (to see temperature)
 
 ```
-npm start --location="Madrid" --index=1
+npm start --location --name="Madrid" --index=0
 ```
